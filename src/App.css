@@ -1,38 +1,129 @@
 .App {
+  border: 1px solid black;
+  border-color: black;
+  box-shadow: 1px 1px 10px 10px rgb(223, 228, 229);
+  border-radius: 10px;
+  margin: 90px 18%;
+  height: 70vh;
+  width: 65vw;
+  padding: 60px;
+  list-style-type: none;
+}
+
+.error-message {
+  color: #de5c74;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  font-size: 22px;
+}
+
+.questionCount {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 490;
+}
+
+.question {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.option {
+  margin: 15px;
+}
+
+.result-icon {
+  font-size: 150px;
+  color: green;
+  margin: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.marks {
+  background-color: #ffc107;
+  padding: 6px;
+  text-align: center;
+  width: 100%;
+  font-size: xx-large;
+  margin: 30px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.result {
+  padding: 0px 50px;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.result-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.button {
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+}
+
+label:hover {
+  background-color: rgb(208, 200, 200);
+  border-radius: 10px;
+  padding: 0;
+  width: 100%;
+}
+
+.next-button {
+  color: green;
+  border-color: green;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.next-button:hover {
+  background-color: #319066;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.progress {
+  width: 100% !important;
+  height: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.preview-button {
+  color: rgb(42, 236, 227);
+  border-color: rgb(19, 212, 222);
+  font-size: 20px;
+  border-radius: 5px;
+  margin-right: 50px;
 }
+
+.preview-button:hover {
+  background-color: #0fe9e9;
+  color: black;
+  font-weight: 500;
+}
+
+table tr td {
+  border: 1px solid black;
+  padding: 40px;
+}
+
+table {
+  margin: 0px 80px 50px 80px;
+}
+
+th {
+  border: 1px solid black !important;
+  padding: 15px;
+}
+
+.tableOption {}
